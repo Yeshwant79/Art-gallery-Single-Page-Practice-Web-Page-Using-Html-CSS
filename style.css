@@ -1,0 +1,72 @@
+        *{margin:0; padding:0;}
+        #header{height:1cm; width:96%; line-height:1cm; padding:0 2%;}
+        .header-left{float:left; color:skyblue;}
+        .header-right{float:right; text-align:right;}
+        .header-right ul li {display:inline-block; margin-right:0.7cm;}
+        .header-right a {text-decoration:none; color: aqua;}
+        nav{height:1in; width:100%; background-color:yellowgreen; position:sticky; top:0px;}
+        .nav-left{float:left; height:1in; padding-top:18px;}
+        .nav-right{height:1in; margin-left:30%;}
+        .nav-right a{text-decoration:none; line-height:1in; color:white; font-size:1.5em; margin-left:1cm;}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+        .first-div{height:100vh; width:100%; background-image:url('img/Gallery-room.jpg'); background-size:cover;}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+        .second-div{height:55vh; width:98%; margin:auto; margin-top:0.5in; background-color:lightgreen;}
+        .second-div h1{ color:white; margin-left:1cm;}
+        .second-div img{width:80%; padding:10%; border-radius:50%;}
+        .second-div img:hover{width:100%; padding:0; border-radius:0;}
+        .second-left{height:45vh; width:29%; float:left; margin-left:3.2%;}
+        .second-right{height:45vh; width:29%; margin-left:68%;}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+       .third-div{ width:100%; height:150vh;margin-top:0.5in; background-image:url('img/f.jpg'); background-size:cover;}
+       .third-in{height:55vh; width:98%; margin:auto; margin-top:0.5in;}
+       .third-div h1{ color:white; margin-left:1cm;}
+       .third-div h2{display:none;}
+       .third-div img{width:80%; padding:10%; border-radius:50%;}
+
+       .third-div img:hover h2{display:block;}
+
+       .third-left{height:45vh; width:15%; float:left; margin-left:3.8%; background-color:transparent;}
+       .third-right{height:45vh; width:15%; margin-left:80%; background-color:transparent;}
+/* ---------------------------------------------------------------------------------------------------------------------- */
+        .fifth-div{ height:50vh; width:98%; margin:auto; margin-top:0.5in;}
+        .fifth-left{ height:50vh; width:30%; float:left; background-color:rgb(144, 232, 144);}
+        .left-in{ margin-left:1in; position:relative; top:0.5in; border-image:none;}
+        .fifth-left input{background-color:transparent; border:none;}
+        .fifth-left a{text-decoration: none;}
+        .fifth-left a:hover{ color:white;}
+        .fifth-right{ height:50vh; width:65%; margin-left:35%;}
+        .fifth-one{height:100%; width:25%; float:left; background-color:transparent;}
+        .fifth-two{height:100%; width:25%; float:left; background-image:url('img/ri.jpg'); background-size:cover;}
+        .fifth-last{height:100%; width:50%; margin-left:50%; background-color:transparent;}
+        table{ margin:auto;}
+        td{ width:1.3cm; height:1cm; }
+/* ----------------------------------------------------------------------------------------------------------------------- */
+        .fourth-div{height:180vh; width:98%; margin:auto; margin-top:0.5in; background-color: aqua;}
+        .fourth-div h1{ color:white; margin-left:1cm;}
+        /* .one img{width:80%; padding:10%; border-radius:10% 40%;}
+        .two img{width:80%; padding:10%; border-radius:50% 50% 0% 0%;}
+        .three img{width:80%; padding:10%; border-radius:0% 0% 50% 50%;}
+        .four img{width:80%; padding:10%; border-radius:40% 10%;} */
+        .fourth-left{height:35vh; width:29%; float:left; margin-left:3.2%;}
+        .fourth-center{height:35vh; width:29%; float:left; margin-left:3.2%;}
+        .fourth-right{height:35vh; width:29%; margin-left:68%;}
+        .in{width:60%; height:60%; display:none; position:relative; top:20%; left:20%; line-height:3cm;text-align:center;}
+        .in h1{ color: red; opacity:1;}
+        .fourth-left:hover .in{ display:block;}
+        .fourth-center:hover .in{ display:block;}
+        .fourth-right:hover .in{ display:block;}
+
+        .fourth-left:hover{ opacity:0.7;}
+        .fourth-center:hover{ opacity:0.7;}
+        .fourth-right:hover{ opacity:0.7;}
+ 
+/* ----------------------------------------------------------------------------------------------------------------------- */
+        footer{width:96%; height:2.5in; margin:0.3in 2%; text-align:center;}
+        footer .div-1{width:20%; height:100%; float:left;}
+        footer .div-2{width:20%; height:90%; float:left; line-height:1cm;}
+        footer .div-3{width:20%; height:90%; float:left; line-height:1cm;}
+        footer .div-4{width:20%; height:90%; float:left; line-height:1cm; background-color:yellow;}
+        footer .div-4 ul {text-align:left;padding:0.5cm 0 0 1cm;}
+        footer .div-5{width:20%; height:90%; margin-left:80%; line-height:1cm;}
+        footer .div-5 input{ border:none; border-bottom:2px solid gray;}
